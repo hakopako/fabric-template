@@ -1,0 +1,16 @@
+{
+    "git": {
+        "repo_url": "https://github.com/hogehoge/hugahuga",
+        "dir_path": "/usr/share/nginx/html/hoge",
+        "branch": "master"
+    },
+    "project_a": {
+        "owner": "root",
+        "group": "root",
+        "templates": ["/var/spool/hoge"]
+    },
+    "deploy": [
+        "./deploy/git",
+        "./deploy/project_a/default"
+    ]
+}

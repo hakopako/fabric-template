@@ -1,0 +1,2 @@
+# cron setting of hoge user.
+* * * * * /usr/bin/sh /home/hoge/sample.sh > /dev/null/ 2> $1
